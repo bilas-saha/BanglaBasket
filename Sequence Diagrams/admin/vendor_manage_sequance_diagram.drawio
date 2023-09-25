@@ -1,0 +1,172 @@
+<mxfile host="Electron" modified="2023-09-25T07:25:09.674Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="xX8M8OV8LqzuhMpwAKev" version="21.6.8" type="device">
+  <diagram name="Page-1" id="F4hY6tUk4TKt5mmts702">
+    <mxGraphModel dx="1036" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L2y3Q1k4dNLtaaQ5bGE2-5" value="Admin Dashboard&lt;br&gt;:VendorManage" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="300" y="110" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L2y3Q1k4dNLtaaQ5bGE2-6" value="Database" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="530" y="110" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L2y3Q1k4dNLtaaQ5bGE2-8" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="L2y3Q1k4dNLtaaQ5bGE2-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="180" as="sourcePoint" />
+            <mxPoint x="370" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="460" />
+              <mxPoint x="355" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2y3Q1k4dNLtaaQ5bGE2-17" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="583" y="470" as="sourcePoint" />
+            <mxPoint x="582.5" y="149" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-9" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="107" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bJmhBiMXRo4OpdSU438M-39" target="bJmhBiMXRo4OpdSU438M-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="117" y="490" as="sourcePoint" />
+            <mxPoint x="157" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="351" y="201" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-12" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="228" as="sourcePoint" />
+            <mxPoint x="349" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-13" value="Add vendor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="201" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-14" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="bJmhBiMXRo4OpdSU438M-11">
+          <mxGeometry y="-50" relative="1" as="geometry">
+            <mxPoint x="349" y="253.5" as="sourcePoint" />
+            <mxPoint x="124" y="253" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="144" y="253.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-15" value="display add vendor form()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="225" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-16" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="279" as="sourcePoint" />
+            <mxPoint x="349" y="279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-17" value="input information" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="254" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="582" y="231" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-19" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="bJmhBiMXRo4OpdSU438M-11" target="bJmhBiMXRo4OpdSU438M-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-20" value="input information()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="394" y="248" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-21" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="-50" relative="1" as="geometry">
+            <mxPoint x="582" y="301.5" as="sourcePoint" />
+            <mxPoint x="362" y="301" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-22" value="information store success()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="279" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-23" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="-50" relative="1" as="geometry">
+            <mxPoint x="350" y="313" as="sourcePoint" />
+            <mxPoint x="125" y="312.5" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="145" y="313" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-24" value="vendor add successfully()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="161" y="288" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-25" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="361" y="387" as="sourcePoint" />
+            <mxPoint x="582" y="387" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="351" y="360" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-27" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="384" as="sourcePoint" />
+            <mxPoint x="351" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-28" value="delete vendor()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="359" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="582" y="361" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-30" value="destory vendor information()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="360" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-31" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="-50" relative="1" as="geometry">
+            <mxPoint x="582" y="421.5" as="sourcePoint" />
+            <mxPoint x="362" y="421" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-32" value="destroy success()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="399" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-33" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="bJmhBiMXRo4OpdSU438M-39">
+          <mxGeometry y="-50" relative="1" as="geometry">
+            <mxPoint x="347" y="436" as="sourcePoint" />
+            <mxPoint x="127" y="435.5" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="120" y="436" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-34" value="vendor delete successfully()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="411" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="117" y="210" width="10" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-38" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bJmhBiMXRo4OpdSU438M-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="117" y="490" as="sourcePoint" />
+            <mxPoint x="122" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="112" y="371" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-40" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Figure: Add,Delete vendor Sequance Diagram&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="191" y="510" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bJmhBiMXRo4OpdSU438M-41" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="48" width="630" height="512" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
